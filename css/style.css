@@ -8,14 +8,14 @@
 
 /* header */
 
-/* header{
+header{
     position: -webkit-sticky;
     position: sticky;
-    top: -60%;
-} */
+    top: -70%;
+}
 .header{
     width: 100%;
-    height: 20%;
+    height: 10%;
 }
 
 ul li{
@@ -40,7 +40,7 @@ li a{
 
 ul li:first-child{
     margin-right: 400px;
-    margin-left: 140px;
+    margin-left: 100px;
 }
 
 header{
@@ -61,8 +61,8 @@ nav img{
     width: 576px;
     color: white;
     position: absolute;
-    top: 210px;
-    left: 140px;
+    top: 180px;
+    left: 100px;
 }
 
 h1{
@@ -148,11 +148,15 @@ main button{
     font-family: Poppins;
     font-weight: normal;
     background-color: #5863F8;
+}
+
+main button a{
     color: white;
 }
 main button::after{
     content: "\2192";
     margin-left: 10px;
+    color: white;
 }
 
 main button:active{
@@ -161,7 +165,7 @@ main button:active{
 
 .hotel_info2{
     margin-left: 100px;
-    width: 600px;
+    width: 550px;
     height: 450px;
     display: inline-block;
     vertical-align: middle;
@@ -170,5 +174,46 @@ main button:active{
 .hotel_info2:first-child, .hotel_info2:nth-child(2){
     display: inline-block;
     vertical-align: middle;
-    margin-right: 5px;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 22%;
+    background-color: #121212;
+}
+
+footer h1{
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+footer p{
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+    color: #B1B1B1;
+}
+
+footer div{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+}
+
+footer img{
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+span{
+    padding-right: 5px;
+    border-right: 3px solid #707070;
+}
+
+p a{
+    color: #5863F8;
 }
