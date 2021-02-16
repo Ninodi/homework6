@@ -9,13 +9,11 @@
 /* header */
 
 header{
+    width: 100%;
+    height: 42%;
     position: -webkit-sticky;
     position: sticky;
     top: -70%;
-}
-.header{
-    width: 100%;
-    height: 10%;
 }
 
 ul li{
@@ -28,24 +26,19 @@ li a{
     color: #FFFFFF;
     font-size: 12px;
     font-family: Poppins;
-    font-weight: 500;
+    font-weight: Medium;
 
 }
 
 .first_link{
     font-size: 14px;
     font-family: Poppins;
-    font-weight: 600;
+    font-weight: SemiBold;
 }
 
 ul li:first-child{
     margin-right: 400px;
     margin-left: 100px;
-}
-
-header{
-    width: 100%;
-    height: 42%;
 }
 
 nav img{
@@ -69,7 +62,7 @@ h1{
     margin-bottom: 20px;
     font-size: 62px;
     font-family: Poppins;
-    font-weight: 800;
+    font-weight: ExtraBold;
 }
 
 .site_info p{
@@ -110,7 +103,7 @@ button img{
     margin-bottom: 60px;
 }
 .hotel_info{
-    width: 600px;
+    width: 550px;
     height: 450px;
     margin-left: 100px;
     display: inline-block;
@@ -123,7 +116,7 @@ main p{
     text-align: left;
     font-size: 42px;
     font-family: Poppins;
-    font-weight: 800;
+    font-weight: ExtraBold;
 }
 
 .txt{
@@ -131,13 +124,13 @@ main p{
     text-align: left;
     font-size: 16px;
     font-family: Poppins;
-    font-weight: 500;
+    font-weight: Medium;
 }
 
 .sec_txt{
     font-size: 14px;
     font-family: Poppins;
-    font-weight: normal;
+    font-weight: Regular;
 }
 
 main button{
@@ -146,7 +139,7 @@ main button{
     margin-left: 10px;
     font-size: 14px;
     font-family: Poppins;
-    font-weight: normal;
+    font-weight: Regular;
     background-color: #5863F8;
 }
 
@@ -176,6 +169,7 @@ main button:active{
     vertical-align: middle;
 }
 
+
 /* footer */
 
 footer{
@@ -194,7 +188,7 @@ footer h1{
 footer p{
     font-size: 14px;
     font-family: Poppins;
-    font-weight: 500;
+    font-weight: Medium;
     color: #B1B1B1;
 }
 
