@@ -26,14 +26,13 @@ li a{
     color: #FFFFFF;
     font-size: 12px;
     font-family: Poppins;
-    font-weight: Medium;
-
+    font-weight: normal;
 }
 
 .first_link{
     font-size: 14px;
     font-family: Poppins;
-    font-weight: SemiBold;
+    font-weight: 600;
 }
 
 ul li:first-child{
@@ -46,14 +45,13 @@ nav img{
     height: 100%;
 }
 
-.nav_bar{
+.nav_bar, .site_info, .buttons{
     position: absolute;
 }
 
 .site_info{
     width: 576px;
     color: white;
-    position: absolute;
     top: 180px;
     left: 100px;
 }
@@ -62,7 +60,7 @@ h1{
     margin-bottom: 20px;
     font-size: 62px;
     font-family: Poppins;
-    font-weight: ExtraBold;
+    font-weight: 800;
 }
 
 .site_info p{
@@ -91,7 +89,6 @@ button img{
 }
 
 .buttons{
-    position: absolute;
     bottom: 75px;
     right: 140px;
 }
@@ -110,13 +107,13 @@ button img{
     vertical-align: middle;
 
 }
-main p{
-    width: 100%;
+main h1{
+    width: 80%;
     margin-bottom: 14px;
     text-align: left;
     font-size: 42px;
     font-family: Poppins;
-    font-weight: ExtraBold;
+    font-weight: 800;
 }
 
 .txt{
@@ -124,22 +121,23 @@ main p{
     text-align: left;
     font-size: 16px;
     font-family: Poppins;
-    font-weight: Medium;
+    font-weight: 500;
 }
 
 .sec_txt{
     font-size: 14px;
     font-family: Poppins;
-    font-weight: Regular;
+    font-weight: normal;
 }
 
 main button{
+    margin-top: 36px;
     width: 185px;
     height: 50px;
     margin-left: 10px;
     font-size: 14px;
     font-family: Poppins;
-    font-weight: Regular;
+    font-weight: normal;
     background-color: #5863F8;
 }
 
@@ -169,7 +167,6 @@ main button:active{
     vertical-align: middle;
 }
 
-
 /* footer */
 
 footer{
@@ -188,7 +185,7 @@ footer h1{
 footer p{
     font-size: 14px;
     font-family: Poppins;
-    font-weight: Medium;
+    font-weight: 500;
     color: #B1B1B1;
 }
 
