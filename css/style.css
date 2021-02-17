@@ -11,9 +11,16 @@
 header{
     width: 100%;
     height: 42%;
-    position: -webkit-sticky;
     position: sticky;
     top: -70%;
+}
+
+.header {
+    height: 100vh;
+}
+
+nav {
+    height: 100%;
 }
 
 ul li{
@@ -29,12 +36,6 @@ li a{
     font-weight: normal;
 }
 
-.first_link{
-    font-size: 14px;
-    font-family: Poppins;
-    font-weight: 600;
-}
-
 ul li:first-child{
     margin-right: 400px;
     margin-left: 100px;
@@ -44,8 +45,14 @@ nav img{
     width: 100%;
     height: 100%;
 }
+nav > img {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
-.nav_bar, .site_info, .buttons{
+nav, .site_info, .buttons{
     position: absolute;
 }
 
@@ -70,27 +77,23 @@ h1{
     font-weight: normal;
 }
 
-button{
-    width: 51px;
-    height: 51px;
-}
-
-button:hover, button:active{
-    background-color: #5863F8;
-}
-
-button:focus{
-    outline: none;
-}
-
-button img{
-    width: 14px;
-    height: 14px;
-}
-
 .buttons{
-    bottom: 75px;
     right: 140px;
+    bottom: 75px;
+}
+
+.buttons div > img{
+    padding: 15px;
+}
+.buttons > div{
+    height: 51px;
+    width: 51px;
+    background-color: #FFFFFF;
+    display: inline-block;
+}
+
+.buttons > div:hover{
+    background-color: #5863F8;
 }
 
 /* main */
@@ -105,7 +108,6 @@ button img{
     margin-left: 100px;
     display: inline-block;
     vertical-align: middle;
-
 }
 main h1{
     width: 80%;
@@ -130,28 +132,26 @@ main h1{
     font-weight: normal;
 }
 
-main button{
+.full_txt{
     margin-top: 36px;
+    margin-left: 10px;
+    padding: 15px;
     width: 185px;
     height: 50px;
-    margin-left: 10px;
     font-size: 14px;
     font-family: Poppins;
     font-weight: normal;
     background-color: #5863F8;
 }
 
-main button a{
+.full_txt a{
+    margin-left: 30px;
     color: white;
 }
-main button::after{
+.full_txt a::after{
     content: "\2192";
     margin-left: 10px;
     color: white;
-}
-
-main button:active{
-    outline: none;
 }
 
 .hotel_info2{
