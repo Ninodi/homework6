@@ -12,11 +12,12 @@ header{
     width: 100%;
     height: 42%;
     position: sticky;
-    top: -70%;
+    top: -90%;
 }
 
 .header {
     height: 100vh;
+    position: relative;
 }
 
 nav {
@@ -52,7 +53,7 @@ nav > img {
     right: 0;
 }
 
-nav, .site_info, .buttons{
+nav, .mark_here, .site_info, .buttons{
     position: absolute;
 }
 
@@ -77,9 +78,17 @@ h1{
     font-weight: normal;
 }
 
+.mark_here{
+    left: 100px;
+    bottom: 60px;
+    font: 20px;
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+}
 .buttons{
     right: 140px;
-    bottom: 75px;
+    bottom: 80px;
 }
 
 .buttons div > img{
@@ -94,6 +103,10 @@ h1{
 
 .buttons > div:hover{
     background-color: #5863F8;
+}
+
+.sec_arrow{
+    margin-left: -5px;
 }
 
 /* main */
